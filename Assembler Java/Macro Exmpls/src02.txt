@@ -1,0 +1,15 @@
+.2345678901234567890
+prog     start   0100
+.
+sum      macro   &L,&R   
+         lda     &L[1]
+         add     &L[2]
+         add     &L[3]
+         sta     &R   
+         mend 
+.
+bgn      sum     (alpha,beta,=w'20'),result
+alpha    word    10
+beta     word    24
+result   resw    1
+         end

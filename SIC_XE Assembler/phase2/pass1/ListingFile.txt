@@ -1,0 +1,54 @@
+000000 SUM       START    0        
+000000 FIRST     LDX      #0       
+000003           LDA      #0       
+000006           +LDB     #TABLE2  
+00000A LOOP      ADD      TABLE,X  
+00000D           ADD      TABLE2,X 
+000010           TIX      COUNT    
+000013           JLT      LOOP     
+000016           +STA     TOTAL    
+00001A           RSUB             
+00001D COUNT     RESW     1        
+000020 TABLE     RESW     1        
+000023 TABLE2    RESW     2000     
+001793 TOTAL     RESW     1        
+001796           END      FIRST    
+
+
+>>    e n d    o f   p a s s   1 
+
+>>   *****************************************************
+
+>>         s y m b o l     t a b l e
+           name           value     flag
+ ----------------------------------------------------
+           COUNT          1D        RELOCATABLE
+           FIRST          0         RELOCATABLE
+           LOOP           A         RELOCATABLE
+           TABLE          20        RELOCATABLE
+           TABLE2         23        RELOCATABLE
+           TOTAL          1793      RELOCATABLE
+           TOTAL          1793      RELOCATABLE
+
+>>   *****************************************************
+
+
+
+
+>>   **************************PASS II***************************
+
+
+000000   050000 FIRST     LDX      #0       
+000003   010000           LDA      #0       
+000006 69100023           +LDB     #TABLE2  
+00000A   1BA013 LOOP      ADD      TABLE,X  
+00000D   1BA013           ADD      TABLE2,X 
+000010   2F200A           TIX      COUNT    
+000013   3B2FF4           JLT      LOOP     
+000016 0F101793           +STA     TOTAL    
+00001A   4F0000           RSUB             
+00001D          COUNT     RESW     1        
+000020          TABLE     RESW     1        
+000023          TABLE2    RESW     2000     
+001793          TOTAL     RESW     1        
+001796                    END      FIRST    

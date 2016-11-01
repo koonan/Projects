@@ -1,0 +1,20 @@
+.GET MIN OF FOUR ELEMENTS
+.2345678901234567890
+PROG     START   0100                                             
+.
+.
+         LDA     A1                                               
+         COMP    A2                                               
+         LDA     A2                                               
+         COMP    A3                                               
+         LDA     A3                                               
+         COMP    A4                                               
+         LDA     A4                                               
+         STA     M                                                
+LOLO     J       LOLO                                             
+A1       WORD    10                                               
+A2       WORD    20                                               
+A3       WORD    5                                                
+A4       WORD    6                                                
+M        RESW    1                                                
+         END     PROG                                             

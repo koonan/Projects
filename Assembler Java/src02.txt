@@ -1,0 +1,17 @@
+.2345678901234567890
+prog     start   0100
+.
+sum      MACRO     &L,&M
+&R       SET        1
+&N         SET      %ITEMS(&L)
+         IF       (&R LT &N)
+         LDA       &L(&R)
+&R       SET        &R+1
+         ENDIF
+         MEND
+.
+bgn      sum     (    alpha   ,    beta,    =w'20'   ),ll
+alpha    word    10
+beta     word    24
+result   resw    1
+         END     prog

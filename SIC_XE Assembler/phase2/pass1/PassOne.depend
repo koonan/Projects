@@ -1,0 +1,389 @@
+# depslib dependency file v1.0
+1461596109 source:e:\1-esraa\codeblocksworkspace\passone\main.cpp
+	<iostream>
+	"OpcodeGenerator.h"
+	"WriteFile.h"
+	<bits/stdc++.h>
+
+1461580723 e:\1-esraa\codeblocksworkspace\passone\include\readfile.h
+	<bits/stdc++.h>
+
+1461585308 source:e:\1-esraa\codeblocksworkspace\passone\src\readfile.cpp
+	"ReadFile.h"
+	<iostream>
+	<fstream>
+	<bits/stdc++.h>
+
+1461589605 e:\1-esraa\codeblocksworkspace\passone\opcodegenerator.h
+	<bits/stdc++.h>
+
+1461589466 e:\1-esraa\codeblocksworkspace\passone\readfile.h
+	<bits/stdc++.h>
+
+1461590654 source:e:\1-esraa\codeblocksworkspace\passone\opcodegenerator.cpp
+	"ReadFile.h"
+	<bits/stdc++.h>
+	"OpcodeGenerator.h"
+
+1461588288 source:e:\1-esraa\codeblocksworkspace\passone\readfile.cpp
+	"ReadFile.h"
+	<iostream>
+	<fstream>
+	<bits/stdc++.h>
+
+1461588897 e:\1-esraa\codeblocksworkspace\passone\read.h
+	<bits/stdc++.h>
+
+1461596751 e:\1-esraa\codeblocksworkspace\passone\writefile.h
+	<bits/stdc++.h>
+
+1461558256 source:e:\1-esraa\college2-2\systems programming\project\passone\opcodegenerator.cpp
+	"ReadFile.h"
+	<bits/stdc++.h>
+	"OpcodeGenerator.h"
+
+1461557068 e:\1-esraa\college2-2\systems programming\project\passone\readfile.h
+	<bits/stdc++.h>
+
+1461557206 e:\1-esraa\college2-2\systems programming\project\passone\opcodegenerator.h
+	<bits/stdc++.h>
+
+1461773230 source:e:\1-esraa\college2-2\systems programming\project\passone\main.cpp
+	<iostream>
+	"OpcodeGenerator.h"
+	"WriteFile.h"
+	<bits/stdc++.h>
+
+1461761070 e:\1-esraa\college2-2\systems programming\project\passone\writefile.h
+	<bits/stdc++.h>
+
+1461566064 source:e:\1-esraa\college2-2\systems programming\project\passone\readfile.cpp
+	"ReadFile.h"
+	<fstream>
+	<bits/stdc++.h>
+
+1461773524 source:e:\1-esraa\college2-2\systems programming\project\passone\writefile.cpp
+	"WriteFile.h"
+	<bits/stdc++.h>
+	<fstream>
+
+1461852400 source:d:\csed_secondyear\secondterm\systemprogramming\project\passone\main.cpp
+	"PassOneAlgorithm.h"
+	<iostream>
+	"OpcodeGenerator.h"
+	"WriteFile.h"
+	<bits/stdc++.h>
+
+1461557206 d:\csed_secondyear\secondterm\systemprogramming\project\passone\opcodegenerator.h
+	<bits/stdc++.h>
+
+1461761070 d:\csed_secondyear\secondterm\systemprogramming\project\passone\writefile.h
+	<bits/stdc++.h>
+
+1461558256 source:d:\csed_secondyear\secondterm\systemprogramming\project\passone\opcodegenerator.cpp
+	"ReadFile.h"
+	<bits/stdc++.h>
+	"OpcodeGenerator.h"
+
+1461557068 d:\csed_secondyear\secondterm\systemprogramming\project\passone\readfile.h
+	<bits/stdc++.h>
+
+1461566064 source:d:\csed_secondyear\secondterm\systemprogramming\project\passone\readfile.cpp
+	"ReadFile.h"
+	<fstream>
+	<bits/stdc++.h>
+
+1461853023 source:d:\csed_secondyear\secondterm\systemprogramming\project\passone\writefile.cpp
+	"WriteFile.h"
+	<bits/stdc++.h>
+	<fstream>
+
+1461847217 d:\csed_secondyear\secondterm\systemprogramming\project\passone\passonealgorithm.h
+	<bits/stdc++.h>
+	<sstream>
+
+1461852941 source:d:\csed_secondyear\secondterm\systemprogramming\project\passone\passonealgorithm.cpp
+	"PassOneAlgorithm.h"
+	<bits/stdc++.h>
+	<sstream>
+
+1461594256 source:c:\users\amira fathy\desktop\assembler\passone\opcodegenerator.cpp
+	"ReadFile.h"
+	<bits/stdc++.h>
+	"OpcodeGenerator.h"
+
+1461894352 c:\users\amira fathy\desktop\assembler\passone\readfile.h
+	<bits/stdc++.h>
+
+1461593206 c:\users\amira fathy\desktop\assembler\passone\opcodegenerator.h
+	<bits/stdc++.h>
+
+1461894570 source:c:\users\amira fathy\desktop\assembler\passone\readfile.cpp
+	"ReadFile.h"
+	<fstream>
+	<bits/stdc++.h>
+
+1461889024 source:c:\users\amira fathy\desktop\assembler\passone\writefile.cpp
+	"WriteFile.h"
+	<bits/stdc++.h>
+	<fstream>
+
+1461797072 c:\users\amira fathy\desktop\assembler\passone\writefile.h
+	<bits/stdc++.h>
+
+1461891989 source:c:\users\amira fathy\desktop\assembler\passone\passonealgorithm.cpp
+	"PassOneAlgorithm.h"
+	<bits/stdc++.h>
+	<sstream>
+
+1461883218 c:\users\amira fathy\desktop\assembler\passone\passonealgorithm.h
+	<bits/stdc++.h>
+	<sstream>
+
+1461895711 source:c:\users\amira fathy\desktop\assembler\passone\main.cpp
+	"PassOneAlgorithm.h"
+	<iostream>
+	"OpcodeGenerator.h"
+	"WriteFile.h"
+	"Parser.h"
+	<bits/stdc++.h>
+
+1461895133 c:\users\amira fathy\desktop\assembler\passone\parser.h
+	"ReadFile.h"
+	"OpcodeGenerator.h"
+	"WriteFile.h"
+	"PassOneAlgorithm.h"
+
+1461896308 source:c:\users\amira fathy\desktop\assembler\passone\parser.cpp
+	"Parser.h"
+	"OpcodeGenerator.h"
+	"WriteFile.h"
+	"ReadFile.h"
+	"PassOneAlgorithm.h"
+	<bits/stdc++.h>
+	<regex>
+
+1461859712 source:e:\safaa-2\assembler\passone\main.cpp
+	"PassOneAlgorithm.h"
+	<iostream>
+	"OpcodeGenerator.h"
+	"WriteFile.h"
+	"Parser.h"
+	<bits/stdc++.h>
+
+1461847218 e:\safaa-2\assembler\passone\passonealgorithm.h
+	<bits/stdc++.h>
+	<sstream>
+
+1461557206 e:\safaa-2\assembler\passone\opcodegenerator.h
+	<bits/stdc++.h>
+
+1461761072 e:\safaa-2\assembler\passone\writefile.h
+	<bits/stdc++.h>
+
+1461910591 e:\safaa-2\assembler\passone\parser.h
+	"ReadFile.h"
+	"OpcodeGenerator.h"
+	"WriteFile.h"
+	"PassOneAlgorithm.h"
+
+1461908765 e:\safaa-2\assembler\passone\readfile.h
+	<bits/stdc++.h>
+
+1461558256 source:e:\safaa-2\assembler\passone\opcodegenerator.cpp
+	"ReadFile.h"
+	<bits/stdc++.h>
+	"OpcodeGenerator.h"
+
+1461917767 source:e:\safaa-2\assembler\passone\parser.cpp
+	"Parser.h"
+	"OpcodeGenerator.h"
+	"WriteFile.h"
+	"ReadFile.h"
+	"PassOneAlgorithm.h"
+	<bits/stdc++.h>
+	<regex>
+
+1461855990 source:e:\safaa-2\assembler\passone\passonealgorithm.cpp
+	"PassOneAlgorithm.h"
+	<bits/stdc++.h>
+	<sstream>
+
+1461858572 source:e:\safaa-2\assembler\passone\readfile.cpp
+	"ReadFile.h"
+	<fstream>
+	<bits/stdc++.h>
+
+1461853024 source:e:\safaa-2\assembler\passone\writefile.cpp
+	"WriteFile.h"
+	<bits/stdc++.h>
+	<fstream>
+
+1461981069 source:c:\users\amira fathy\desktop\asssssssssembler\final safaa\assembler\passone\main.cpp
+	"PassOneAlgorithm.h"
+	<iostream>
+	"OpcodeGenerator.h"
+	"WriteFile.h"
+	"Parser.h"
+	<bits/stdc++.h>
+
+1461981019 c:\users\amira fathy\desktop\asssssssssembler\final safaa\assembler\passone\passonealgorithm.h
+	<bits/stdc++.h>
+	<sstream>
+
+1461981046 c:\users\amira fathy\desktop\asssssssssembler\final safaa\assembler\passone\opcodegenerator.h
+	<bits/stdc++.h>
+
+1461980899 c:\users\amira fathy\desktop\asssssssssembler\final safaa\assembler\passone\writefile.h
+	<bits/stdc++.h>
+
+1461946592 c:\users\amira fathy\desktop\asssssssssembler\final safaa\assembler\passone\parser.h
+	"ReadFile.h"
+	"OpcodeGenerator.h"
+	"WriteFile.h"
+	"PassOneAlgorithm.h"
+
+1461981071 c:\users\amira fathy\desktop\asssssssssembler\final safaa\assembler\passone\readfile.h
+	<bits/stdc++.h>
+
+1461981057 source:c:\users\amira fathy\desktop\asssssssssembler\final safaa\assembler\passone\opcodegenerator.cpp
+	"ReadFile.h"
+	<bits/stdc++.h>
+	"OpcodeGenerator.h"
+
+1461981029 source:c:\users\amira fathy\desktop\asssssssssembler\final safaa\assembler\passone\passonealgorithm.cpp
+	"PassOneAlgorithm.h"
+	<bits/stdc++.h>
+	<sstream>
+
+1461894572 source:c:\users\amira fathy\desktop\asssssssssembler\final safaa\assembler\passone\readfile.cpp
+	"ReadFile.h"
+	<fstream>
+	<bits/stdc++.h>
+
+1461981071 source:c:\users\amira fathy\desktop\asssssssssembler\final safaa\assembler\passone\writefile.cpp
+	"WriteFile.h"
+	<bits/stdc++.h>
+	<fstream>
+
+1461980712 source:c:\users\amira fathy\desktop\asssssssssembler\final safaa\assembler\passone\parser.cpp
+	"Parser.h"
+	"OpcodeGenerator.h"
+	"WriteFile.h"
+	"ReadFile.h"
+	"PassOneAlgorithm.h"
+	<bits/stdc++.h>
+	<regex>
+
+1461945070 source:e:\safaa-2\finalofall\assembler\passone\main.cpp
+	"PassOneAlgorithm.h"
+	<iostream>
+	"OpcodeGenerator.h"
+	"WriteFile.h"
+	"Parser.h"
+	<bits/stdc++.h>
+
+1461945020 e:\safaa-2\finalofall\assembler\passone\passonealgorithm.h
+	<bits/stdc++.h>
+	<sstream>
+
+1461945048 e:\safaa-2\finalofall\assembler\passone\opcodegenerator.h
+	<bits/stdc++.h>
+
+1461944900 e:\safaa-2\finalofall\assembler\passone\writefile.h
+	<bits/stdc++.h>
+
+1461986654 e:\safaa-2\finalofall\assembler\passone\parser.h
+	"ReadFile.h"
+	"OpcodeGenerator.h"
+	"WriteFile.h"
+	"PassOneAlgorithm.h"
+
+1461945072 e:\safaa-2\finalofall\assembler\passone\readfile.h
+	<bits/stdc++.h>
+
+1461945058 source:e:\safaa-2\finalofall\assembler\passone\opcodegenerator.cpp
+	"ReadFile.h"
+	<bits/stdc++.h>
+	"OpcodeGenerator.h"
+
+1461945202 source:e:\safaa-2\finalofall\assembler\passone\readfile.cpp
+	"ReadFile.h"
+	<fstream>
+	<bits/stdc++.h>
+
+1461945072 source:e:\safaa-2\finalofall\assembler\passone\writefile.cpp
+	"WriteFile.h"
+	<bits/stdc++.h>
+	<fstream>
+
+1461986288 source:e:\safaa-2\finalofall\assembler\passone\passonealgorithm.cpp
+	"PassOneAlgorithm.h"
+	<bits/stdc++.h>
+	<sstream>
+
+1461995485 source:e:\safaa-2\finalofall\assembler\passone\parser.cpp
+	"Parser.h"
+	"OpcodeGenerator.h"
+	"WriteFile.h"
+	"ReadFile.h"
+	"PassOneAlgorithm.h"
+	<bits/stdc++.h>
+	<regex>
+
+1462018210 source:e:\1-esraa\college2-2\systems programming\project\finalofall\assembler\passone\main.cpp
+	"PassOneAlgorithm.h"
+	<iostream>
+	"OpcodeGenerator.h"
+	"WriteFile.h"
+	"Parser.h"
+	<bits/stdc++.h>
+
+1461945020 e:\1-esraa\college2-2\systems programming\project\finalofall\assembler\passone\passonealgorithm.h
+	<bits/stdc++.h>
+	<sstream>
+
+1461945048 e:\1-esraa\college2-2\systems programming\project\finalofall\assembler\passone\opcodegenerator.h
+	<bits/stdc++.h>
+
+1461944900 e:\1-esraa\college2-2\systems programming\project\finalofall\assembler\passone\writefile.h
+	<bits/stdc++.h>
+
+1462018151 e:\1-esraa\college2-2\systems programming\project\finalofall\assembler\passone\parser.h
+	"ReadFile.h"
+	"OpcodeGenerator.h"
+	"WriteFile.h"
+	"PassOneAlgorithm.h"
+
+1461945072 e:\1-esraa\college2-2\systems programming\project\finalofall\assembler\passone\readfile.h
+	<bits/stdc++.h>
+
+1461945058 source:e:\1-esraa\college2-2\systems programming\project\finalofall\assembler\passone\opcodegenerator.cpp
+	"ReadFile.h"
+	<bits/stdc++.h>
+	"OpcodeGenerator.h"
+
+1462018307 source:e:\1-esraa\college2-2\systems programming\project\finalofall\assembler\passone\parser.cpp
+	"Parser.h"
+	"OpcodeGenerator.h"
+	"WriteFile.h"
+	"ReadFile.h"
+	"PassOneAlgorithm.h"
+	<bits/stdc++.h>
+	<regex>
+
+1462017156 source:e:\1-esraa\college2-2\systems programming\project\finalofall\assembler\passone\passonealgorithm.cpp
+	"PassOneAlgorithm.h"
+	<bits/stdc++.h>
+	<sstream>
+
+1461945202 source:e:\1-esraa\college2-2\systems programming\project\finalofall\assembler\passone\readfile.cpp
+	"ReadFile.h"
+	<fstream>
+	<bits/stdc++.h>
+
+1462017040 source:e:\1-esraa\college2-2\systems programming\project\finalofall\assembler\passone\writefile.cpp
+	"WriteFile.h"
+	<bits/stdc++.h>
+	<fstream>
+

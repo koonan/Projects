@@ -1,0 +1,53 @@
+                  . changed: device number 05 to 01
+00000            COPY    START   0    
+00000  17202D    FIRST   STL     RETADR    
+00003  69202D            LDB     #LENGTH    
+00003                    BASE    LENGTH    
+00006  4B101036  CLOOP  +JSUB    RDREC    
+0000A  032026            LDA     LENGTH    
+0000D  290000            COMP    #0    
+00010  332007            JEQ     ENDFIL    
+00013  4B10105D         +JSUB    WRREC    
+00017  3F2FEC            J       CLOOP    
+0001A  032010    ENDFIL  LDA     EOF    
+0001D  0F2016            STA     BUFFER    
+00020  010003            LDA     #3    
+00023  0F200D            STA     LENGTH    
+00026  4B10105D         +JSUB    WRREC    
+0002A  3E2003            J       @RETADR    
+0002D  454F46    EOF     BYTE    C'EOF'    
+00030  000000    RETADR  RESW    1    
+00033  000000    LENGTH  RESW    1    
+00036  00....00  BUFFER  RESB    4096    
+                  
+                  . Subroutine to read record into buffer
+                  
+01036  B410      RDREC   CLEAR   X    
+01038  B400              CLEAR   A    
+0103A  B440              CLEAR   S    
+0103C  75101000         +LDT     #4096    
+01040  E32019    RLOOP   TD      INPUT    
+01043  332FFA            JEQ     RLOOP    
+01046  DB2013            RD      INPUT    
+01049  A004              COMPR   A,S    
+0104B  332008            JEQ     EXIT    
+0104E  57C003            STCH    BUFFER,X    
+01051  B850              TIXR    T    
+01053  3B2FEA            JLT     RLOOP    
+01056  134000    EXIT    STX     LENGTH    
+01059  4F0000            RSUB        
+0105C  F1        INPUT   BYTE    X'F1'    
+                  
+                  . Subroutine to write record from buffer
+                  
+0105D  B410      WRREC   CLEAR   X    
+0105F  774000            LDT     LENGTH    
+01062  E32011    WLOOP   TD      OUTPUT    
+01065  332FFA            JEQ     WLOOP    
+01068  53C003            LDCH    BUFFER,X    
+0106B  DF2008            WD      OUTPUT    
+0106E  B850              TIXR    T    
+01070  3B2FEF            JLT     WLOOP    
+01073  4F0000            RSUB        
+01076  01        OUTPUT  BYTE    X'01'    
+01077                    END     FIRST    

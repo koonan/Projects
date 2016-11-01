@@ -1,0 +1,49 @@
+.23456789012345678901234567890123456789
+         start   0
+ques1    ldx     #0
+         lds     #1
+         ldt     #0
+Loop     jsub    READ
+         comp    EOF
+         jeq     WrStr
+         comp    #97
+         jlt     StStr
+         comp    #122
+         jgt     StStr
+         jsub    ToUpper
+         j       Loop
+StStr    stch    DATA,X
+         addr    s,x
+         j       Loop
+WrStr    compr   X,T
+         jGT     WrChar
+         STA     Non
+         JSUB    WRITE
+         J       EXIT
+WrChar   subr    s,x
+         ldch    DATA,X
+         jsub    WRITE
+         compr   x,t
+         jeq     Exit
+         j       WrChar
+ToUpper  sub     #97
+         add     #65
+         stch    DATA,X
+         addr    s,x
+         rsub
+READ     TD      INDEV
+         JEQ     READ
+         LDA     #0
+         RD      INDEV
+         RSUB
+WRITE    TD      OUTDEV
+         JEQ     WRITE
+         WD      OUTDEV
+         RSUB
+Exit     J       *
+INDEV    byte    X'F1'
+OUTDEV   byte    X'04'
+EOF      byte    X'000004'
+Non      byte    X''
+DATA     RESB    200
+         END     ques1

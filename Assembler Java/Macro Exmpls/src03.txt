@@ -1,0 +1,21 @@
+.2345678901234567890
+prog     start   0100
+.
+max      macro   &P1,&P2,&P3,&M   
+         lda     &P1
+         comp    &P2
+         Jlt     *+6
+         lda     &P2
+         comp    &P3
+         Jlt     *+6
+         lda     &P3
+         sta     &m   
+         mend 
+.
+XXX      max     Y,Z,W,Q
+         j       * 
+Y        word    10
+Z        word    20
+W       word    5
+Q        resw    1
+         end

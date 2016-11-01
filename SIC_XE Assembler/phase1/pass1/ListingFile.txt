@@ -1,0 +1,33 @@
+.YOU CAN ASSUME THAT THE INPUT STRING AND ITS LENGTH ARE GIVEN AS CONSTANTS
+.WRITE A PROGRAM THAT SEARCHES FOR A CERTAIN BYTE IN A STRING, IF FOUND, PUT THE ADDRESS OF THE BYTE IN REGISTER A ELSE, PUT 0XFFFFFF
+.LINEAR SEARCHING
+.2345678901234567890123456789
+001000           START    1000     
+001000 QUES3     LDA      #0       
+001003           LDCH     C        
+001006           RMO      A,S      
+001008 QUES3     ORG              
+**    Warning:Unsupported Directive  **
+001008           LDX      #0       
+00100B LOOP      LDA      #0       
+00100E           LDCH     STR,X    
+001011           COMPR    A,S      
+001013           JEQ      GETADD   
+001016           TIX      LEN      
+001019           JLT      LOOP     
+00101C           LDA      DEFULT   
+00101F           J        *        
+...................................
+001022 GETADD    LDA      #STR     
+001025           ADDR     ,A       
+001027           J        *        
+00102A           +SHIFTR  S,T      
+      **Can not be format 4 instruction
+00102A           SHIFTL   S,T      
+...................................
+00102C STR       BYTE     C'SA%&#@'
+001032 LEN       WORD     5        
+001035 DEFULT    BYTE     C'FFFFFF'
+00103B C         BYTE     C'D'     
+00103C           END      QUES3    
+           Incomplete assembly

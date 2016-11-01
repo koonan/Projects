@@ -1,0 +1,92 @@
+# depslib dependency file v1.0
+1463012626 source:e:\safaa\pass1\expressionevaluator.cpp
+	"ExpressionEvaluator.h"
+
+1462984068 e:\safaa\pass1\expressionevaluator.h
+	<bits/stdc++.h>
+
+1463013226 source:e:\safaa\pass1\main.cpp
+	"PassOneAlgorithm.h"
+	<iostream>
+	"OpcodeGenerator.h"
+	"WriteFile.h"
+	"Parser.h"
+	"PassTwoAlgorithm.h"
+	<bits/stdc++.h>
+
+1462969760 e:\safaa\pass1\passonealgorithm.h
+	<bits/stdc++.h>
+	"ExpressionEvaluator.h"
+	"OperandValidator.h"
+	<sstream>
+
+1462674620 e:\safaa\pass1\operandvalidator.h
+	<iostream>
+	<vector>
+	<regex>
+	<algorithm>
+
+1462002624 e:\safaa\pass1\opcodegenerator.h
+	<bits/stdc++.h>
+
+1462970916 e:\safaa\pass1\writefile.h
+	<bits/stdc++.h>
+
+1462960768 e:\safaa\pass1\parser.h
+	"ReadFile.h"
+	"OpcodeGenerator.h"
+	"WriteFile.h"
+	"PassOneAlgorithm.h"
+
+1461912672 e:\safaa\pass1\readfile.h
+	<bits/stdc++.h>
+
+1463009460 e:\safaa\pass1\passtwoalgorithm.h
+	<bits/stdc++.h>
+	"OperandValidator.h"
+	"ExpressionEvaluator.h"
+
+1461912658 source:e:\safaa\pass1\opcodegenerator.cpp
+	"ReadFile.h"
+	<bits/stdc++.h>
+	"OpcodeGenerator.h"
+
+1463020879 source:e:\safaa\pass1\operandvalidator.cpp
+	"OperandValidator.h"
+	<regex>
+	<algorithm>
+	<bits/stdc++.h>
+
+1463019931 source:e:\safaa\pass1\parser.cpp
+	"Parser.h"
+	"OpcodeGenerator.h"
+	"WriteFile.h"
+	"ReadFile.h"
+	"PassOneAlgorithm.h"
+	<bits/stdc++.h>
+	<regex>
+
+1463012860 source:e:\safaa\pass1\passonealgorithm.cpp
+	"PassOneAlgorithm.h"
+	<bits/stdc++.h>
+	<sstream>
+	"ExpressionEvaluator.h"
+	"OperandValidator.h"
+
+1463020261 source:e:\safaa\pass1\passtwoalgorithm.cpp
+	<bits/stdc++.h>
+	"PassTwoAlgorithm.h"
+	"OperandValidator.h"
+	"WriteFile.h"
+	"ExpressionEvaluator.h"
+
+1461912802 source:e:\safaa\pass1\readfile.cpp
+	"ReadFile.h"
+	<fstream>
+	<bits/stdc++.h>
+
+1462970920 source:e:\safaa\pass1\writefile.cpp
+	"WriteFile.h"
+	<bits/stdc++.h>
+	<fstream>
+

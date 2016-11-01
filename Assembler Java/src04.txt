@@ -1,0 +1,26 @@
+.2345678901234567890
+prog     start   0100
+.
+max      MACRO   &P1,&P2,&P3,&M
+         lda     &P1
+         comp    &P2
+         Jgt     $X
+         lda     &P2
+$X       comp    &P3
+         Jgt     $Y
+         lda     &P3
+$Y       sta     &M
+         mend
+XXX      max     A1,A1+3,A1+6,m1
+         max     A2,A2+3,A2+6,m2
+         max     A3,A3+3,A3+6,m3
+         max     m1,m2,m3,m
+AL       j       AL
+A1       word    10,20,5
+A2       word    16,30,11
+A3       word    127,3,53
+m1       resw    1
+m2       resw    1
+m3       resw    1
+m        resw    1
+         end     prog

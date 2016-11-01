@@ -1,0 +1,29 @@
+***** Section <default> *****
+Stats: size=4215  blocks=4215  symbols=15  literals=0  relocations=3
+Blocks
+    name        start   size  #ins #dir #sto
+    <default>   00000  01077    37    6    3
+Symbols
+    name        hex       dec  scope     kind      description
+    BUFFER   000036        54  local     relative  label
+    CLOOP    000006         6  local     relative  label
+    COPY     000000         0  exported  relative  label
+    ENDFIL   00001A        26  local     relative  label
+    EOF      00002D        45  local     relative  label
+    EXIT     001056      4182  local     relative  label
+    FIRST    000000         0  local     relative  label
+    INPUT    00105C      4188  local     relative  label
+    LENGTH   000033        51  local     relative  label
+    OUTPUT   001076      4214  local     relative  label
+    RDREC    001036      4150  local     relative  label
+    RETADR   000030        48  local     relative  label
+    RLOOP    001040      4160  local     relative  label
+    WLOOP    001062      4194  local     relative  label
+    WRREC    00105D      4189  local     relative  label
+Literals
+    label   definition
+Relocations
+    address length flag symbol
+    00007        5
+    00014        5
+    00027        5

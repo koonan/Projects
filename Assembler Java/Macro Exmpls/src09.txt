@@ -1,0 +1,24 @@
+. get min of four elements
+.2345678901234567890
+prog     start   0100
+.
+min      macro   &v,&q
+         lda     &v(1)
+&n       set     2
+         while   (&n le %items(&v))
+         comp    &v(&n)
+  .       jlt     *+6
+         lda     &v(&n)
+&n       set     &n+1
+        endw
+         sta     &q
+         mend
+.
+         min     (a1,a2,a3,a4),m
+lolo         j       lolo
+a1       word    10
+a2       word    20
+a3       word    5
+a4       word    6
+m        resw    1
+         end     prog

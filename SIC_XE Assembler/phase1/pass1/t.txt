@@ -1,0 +1,33 @@
+         START   0fff   
+1fff       LDA     #0
+f&^54         LDX     #1
+         LDS     #10
+         LDL     #0
+AGAINhhhll    TD      INDEVjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+         JEQ     AGAIN
+         RD      INDEV
+         COMP    #4
+         JEQ     EXIT
+
+         SUB     #48
+         MULR    X,l
+         ADDR    
+lda    length
+start   label
+
+         MULR    S ,     		X
+         J       AGAIN
+EXIT     RMO     L,A
+         J       * 
+word     -1000
+word      1000
+word      12,15,16
+byte     c'llld#'
+byte      k'dddf'
+resw      ffff3
+resw      10000
+word      x,1,2,
+word      1,15,16,      
+INDEV    BYTE    X'F31'
+         
+         END     1000

@@ -1,0 +1,30 @@
+.You can assume that the input string and its length are given as constants
+.Write a program that searches for a certain byte in a string, if found, put the address of the byte in register A else, put 0xFFFFFF
+.linear searching
+.2345678901234567890123456789
+         START   1000
+QUES3    LDA     #0
+         LDCH    C
+         RMO     A,S
+ques3 org
+         LDX     #0
+LOOP     LDA     #0
+         LDCH    STR,X
+         COMPR   A,S
+         JEQ     GetAdd
+         TIX     LEN
+         JLT     LOOP
+         LDA     DEFULT
+         J       *
+...................................
+GetAdd   LDA     #STR
+         ADDR    ,A
+         J       *
++shiftr   s,t
+shiftl   s,t
+...................................
+STR      byte c'sa % & # @'
+LEN      WORD    5
+DEFULT   BYTE    c'FFFFFF'
+C        BYTE    C'D'
+         END     QUES3

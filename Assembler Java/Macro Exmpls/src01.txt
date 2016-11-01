@@ -1,0 +1,5 @@
+.2345678901234567890
+prog     start   0100
+         lds     #4
+         shiftr  s,2
+         end

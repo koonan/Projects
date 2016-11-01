@@ -1,0 +1,23 @@
+.23  45678901234   5678901234 56789
+START   ffa
+                   LDA     #0
+      LDCH    Y
+   1215      RMO     A,T
+LOOP	TD fff
+         J       *****
+J       *ffd*
+ f*^%$  J fff
+		1INDEV    BYTE    X'F3'
+       END
+OUTDEV   BYTE    		 X'04'
+   BG       	BYTE    X'41'
+ EG            BYTE    X'5A'
+BS   BYTE    X'61'
+START   0000
+ES          BYTE    X'7A'
+BL         BYTE    X'30'
+EL   BYTE    X'39'
+Y           BYTE    C'Y'
+   N          BYTE    C'N'
+           ANS      RESB    1
+     END

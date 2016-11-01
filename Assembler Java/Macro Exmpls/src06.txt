@@ -1,0 +1,17 @@
+.2345678901234567890
+prog     start   0100
+.  STORE IN &Q THE ABS VALUE OF &P
+ABS      MACRO   &P,&Q
+         LDA     &P
+         COMP    #0
+         JGT     $EXIT
+         JEQ     $EXIT
+         MUL     =X'10'
+$EXIT    STA     &Q
+         MEND
+.
+bgn      ABS     VAL,RES
+lolo         J       lolo
+VAL      WORD    14
+RES      resw    1
+         END     prog

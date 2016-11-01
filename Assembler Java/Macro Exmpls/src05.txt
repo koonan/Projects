@@ -1,0 +1,19 @@
+.2345678901234567890
+prog     start   0100
+.  STORE IN &K REMAINDER OF &I / &J
+REM      MACRO   &I,&J,&K
+         LDA     &I
+         DIV     &J
+         MUL     &J
+         RMO     A,S
+         LDA     &I
+         SUBR    S,A
+         STA     &K
+         MEND
+.
+bgn      REM     X1,X2,Y
+lolo        J    lolo
+X1       WORD    12
+X2       WORD    5
+Y        RESW    1
+         END     prog

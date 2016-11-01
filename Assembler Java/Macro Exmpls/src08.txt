@@ -1,0 +1,18 @@
+.2345678901234567890
+PROG     START   0100
+SUM      MACRO   &L,&RES
+         LDA     &L
+&N       SET     1
+         WHILE   (&N LT 3)
+         ADD     &L
+&N       SET     &N+1
+         ENDW
+         STA     &RES
+         MEND
+BGN      SUM     G,LL
+LOLO      J       LOLO
+G        WORD    3
+         WORD    7
+         WORD    6
+LL         RESW    1
+         END      PROG

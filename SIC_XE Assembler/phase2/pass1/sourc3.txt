@@ -1,0 +1,58 @@
+.2345678901234567890123456789
+.START   g1 0 0 0
+
+START   9999
+QUES     JSUB    R E A D
+         COMP    #48
+         JLT     # lable
+         COMP    # 5  7
+         JLT     8
+         JEQ     Y
+         COMP    ll
+         JLT     N
+         COMP    #90
+   ques      JLT     Y
+         JEQ     =888
+         COMP    #  9  7
+         JLT     N
+         COMP    #122
+         JEQ     C'  67-label'
+         JLT     Y
+        +   compr   A,S
+org
+org     fjjf
+kfk org 
+fjkld equ
+ques   equ   1543
+
+................................
+N        TD      OUTDEV
+         JEQ     = X'FFF0A1-len'
+         LDA     = C '#4dl'
+         WD      OUTDEV
+         J       *
+................................
+         LDA     =<1000 -  safaa >
+Y        TD      OUTDEV
+         JEQ     C'#4dl'
+         LDA     A,X
+         WD      OUTDEV
+         J       *
+..................................
+READ     TD      safaa  ,  x
+         JEQ     1000,X
+JEQ     1090,XX
+         LDA     #0
+         RD      1FFF,x
+         +RSUB 
+  RSUB kdkd  
+
+END     QUES
+.............................
+ddd byte x'test string'
+ggg  byte c'test string'
+INDEV    BYTE    X'F3-label'
+OUTDEV   BYTE    X '  0  4'
+YES      WORD    indev-ques
+NO       BYTE    X'00004E'
+ nod        END     1000

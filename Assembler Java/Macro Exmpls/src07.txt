@@ -1,0 +1,18 @@
+.  copy string S1 of length N into S2
+.2345678901234567890
+prog     start   0100
+.
+COPY     MACRO   &S1,&S2,&LN
+         LDA     #&LN
+         LDX     #0
+$LOOP    LDCH    &S1,X
+         STCH    &S2,X
+         TIXR    T
+         JLT     $LOOP
+         MEND
+.
+bgn      COPY    STR1,STR2,11
+lolo       J     lolo
+STR1     BYTE    C'TEST STRING'
+STR2     RESB    11
+         END      prog

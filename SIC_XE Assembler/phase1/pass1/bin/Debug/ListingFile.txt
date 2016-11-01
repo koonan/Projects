@@ -1,0 +1,59 @@
+.2345678901234567890123456789
+001000           START    1000     
+001000 QUES      JSUB     READ     
+001003           COMP     #48      
+001006           JLT      N        
+001009           COMP     #57      
+00100C           JLT      Y        
+00100F           JEQ      Y        
+001012           COMP     #65      
+001015           JLT      N        
+001018           COMP     #90      
+00101B           JLT      Y        
+00101E           JEQ      Y        
+001021           COMP     #97      
+001024           JLT      N        
+001027           COMP     #122     
+00102A           JEQ      Y        
+00102D           JLT      Y        
+................................
+001030 N         TD       OUTDEV   
+001033           JEQ      N        
+001036           LDA      NO       
+001039           WD       OUTDEV   
+00103C           J        *        
+................................
+00103F Y         TD       OUTDEV   
+001042           JEQ      Y        
+001045           LDA      YES      
+001048           WD       OUTDEV   
+00104B           J        *        
+..................................
+00104E READ      TD       INDEV    
+001051           JEQ      READ     
+001054           LDA      #0       
+001057           RD       INDEV    
+00105A           RSUB             
+.............................
+00105D INDEV     BYTE     X'F3'    
+00105E OUTDEV    BYTE     X'04'    
+00105F YES       BYTE     X'000059'
+001062 NO        BYTE     X'00004E'
+001065           END      QUES     
+
+
+>>    e n d    o f   p a s s   1 
+
+>>   *****************************************************
+
+>>         s y m b o l     t a b l e
+           name         value
+ ----------------------------------
+           INDEV          105D
+           N              1030
+           NO             1062
+           OUTDEV         105E
+           QUES           1000
+           READ           104E
+           Y              103F
+           YES            105F
